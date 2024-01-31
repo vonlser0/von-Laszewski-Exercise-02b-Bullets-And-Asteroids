@@ -359,6 +359,63 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1312940879
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1936651103051062960, guid: c145ca024f9a3294caa9fcf87c5b1977, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 9.317696
+      objectReference: {fileID: 0}
+    - target: {fileID: 1936651103051062960, guid: c145ca024f9a3294caa9fcf87c5b1977, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.551128
+      objectReference: {fileID: 0}
+    - target: {fileID: 1936651103051062960, guid: c145ca024f9a3294caa9fcf87c5b1977, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1936651103051062960, guid: c145ca024f9a3294caa9fcf87c5b1977, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1936651103051062960, guid: c145ca024f9a3294caa9fcf87c5b1977, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1936651103051062960, guid: c145ca024f9a3294caa9fcf87c5b1977, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1936651103051062960, guid: c145ca024f9a3294caa9fcf87c5b1977, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1936651103051062960, guid: c145ca024f9a3294caa9fcf87c5b1977, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1936651103051062960, guid: c145ca024f9a3294caa9fcf87c5b1977, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1936651103051062960, guid: c145ca024f9a3294caa9fcf87c5b1977, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2288504049973685812, guid: c145ca024f9a3294caa9fcf87c5b1977, type: 3}
+      propertyPath: m_Name
+      value: asteroid (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c145ca024f9a3294caa9fcf87c5b1977, type: 3}
 --- !u!1 &1673910930
 GameObject:
   m_ObjectHideFlags: 0
@@ -559,11 +616,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1936651103051062960, guid: c145ca024f9a3294caa9fcf87c5b1977, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.16
+      value: -8.08
       objectReference: {fileID: 0}
     - target: {fileID: 1936651103051062960, guid: c145ca024f9a3294caa9fcf87c5b1977, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.57
+      value: 1.76
       objectReference: {fileID: 0}
     - target: {fileID: 1936651103051062960, guid: c145ca024f9a3294caa9fcf87c5b1977, type: 3}
       propertyPath: m_LocalPosition.z
@@ -605,6 +662,14 @@ PrefabInstance:
       propertyPath: m_Simulated
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4183846924432839431, guid: c145ca024f9a3294caa9fcf87c5b1977, type: 3}
+      propertyPath: m_UseAutoMass
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4183846924432839431, guid: c145ca024f9a3294caa9fcf87c5b1977, type: 3}
+      propertyPath: m_SleepingMode
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8153732271608934214, guid: c145ca024f9a3294caa9fcf87c5b1977, type: 3}
       propertyPath: _data._json
       value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"initial
@@ -624,3 +689,4 @@ SceneRoots:
   - {fileID: 1936602701}
   - {fileID: 1242228080}
   - {fileID: 247006878138475469}
+  - {fileID: 1312940879}
