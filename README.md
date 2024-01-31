@@ -17,4 +17,4 @@ None
 None
 
 ## Created by
-Nathan Mishler
+Seric von Laszewski
